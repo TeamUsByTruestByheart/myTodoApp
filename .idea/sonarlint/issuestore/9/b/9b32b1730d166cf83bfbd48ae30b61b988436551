@@ -1,0 +1,10 @@
+
+wsquid:S00116C"YRename this field "delete_archive" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çœ¹`8İïÀ¾ì-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÊ¼ˆ
+usquid:S00116B"WRename this field "archive_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½åØL8×ˆÀ¾ì-
+usquid:S00116B"WRename this field "archive_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½åØL8ø´À¾ì-
+Gsquid:S1659B"*Declare "archive_date" on a separate line.(½åØL8×ˆÀ¾ì-
+–squid:S1319"sThe type of the "dataList" object should be an interface such as "List" rather than the implementation "ArrayList".(Š³Óùÿÿÿÿ8“Â´¾ì-
+†squid:S1488&"iImmediately return this expression instead of assigning it to the temporary variable "archiveViewHolder".( €^8½ä¼¾ì-
+Gsquid:S1659B"*Declare "archive_time" on a separate line.(½åØL8ø´À¾ì-
+vsquid:S00116B"XRename this field "archive_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½åØL8Ì¿¾ì-

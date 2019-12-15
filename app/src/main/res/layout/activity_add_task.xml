@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddTask">
+
+    <EditText
+        android:id="@+id/taskDescription"
+        android:layout_width="336dp"
+        android:layout_height="59dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="68dp"
+        android:ems="10"
+        android:hint="Task description"
+        android:inputType="textAutoCorrect"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+        android:layout_width="336dp"
+        android:layout_height="59dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/taskDescription"
+        app:layout_constraintVertical_bias="0.087">
+
+        <EditText
+            android:id="@+id/dateForTask"
+            android:layout_width="167dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="Date"
+            android:inputType="date"
+            tools:layout_editor_absoluteX="49dp"
+            tools:layout_editor_absoluteY="269dp" />
+
+        <EditText
+            android:id="@+id/timeForTask"
+            android:layout_width="146dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:layout_weight="0"
+            android:ems="10"
+            android:hint="Time"
+            android:inputType="time"
+            tools:layout_editor_absoluteX="227dp"
+            tools:layout_editor_absoluteY="501dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

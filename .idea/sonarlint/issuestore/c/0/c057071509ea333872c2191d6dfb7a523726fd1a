@@ -1,0 +1,4 @@
+
+squid:UselessImportCheck
+"ORemove this unused import 'com.truestbyheart.todoapp.Adapters.TodoListAdapter'.(×Ç£şÿÿÿÿ8¼¡ö¾ì-
+{squid:S1450"XRemove the "mDatabase" field and declare it as a local variable in the relevant methods.(õ××®úÿÿÿÿ8ì¥õ¾ì-

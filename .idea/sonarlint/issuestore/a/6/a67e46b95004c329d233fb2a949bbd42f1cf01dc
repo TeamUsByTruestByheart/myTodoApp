@@ -1,0 +1,7 @@
+
+Ksquid:S1444"-Make this "public static adapter" field final(ÙÍ©—8¹—ƒì-
+ˆ"squid:ClassVariableVisibilityCheck"SMake adapter a static final constant or non-public and provide accessors if needed.(ÙÍ©—8¹—ƒì-
+lsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(²Ú±8Áô‹İì-
+Ysquid:S2696#"6Make the enclosing method "static" or remove this set.(íøó¢ıÿÿÿÿ8¹—ƒì-
+nsquid:S1301?"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8ğ–á½ì-
+{squid:S1450"XRemove the "mDatabase" field and declare it as a local variable in the relevant methods.(õ××®úÿÿÿÿ8‚‡’šë-

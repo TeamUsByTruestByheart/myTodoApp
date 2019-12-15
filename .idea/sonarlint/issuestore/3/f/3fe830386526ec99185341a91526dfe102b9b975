@@ -1,0 +1,9 @@
+
+…"squid:ClassVariableVisibilityCheck"PMake task a static final constant or non-public and provide accessors if needed.(Ûù‘8Íà‹™ë-
+Œ"squid:ClassVariableVisibilityCheck"RMake isDone a static final constant or non-public and provide accessors if needed.(¢Ô‘–ÿÿÿÿÿ8Ë±™ë-
+…"squid:ClassVariableVisibilityCheck"PMake time a static final constant or non-public and provide accessors if needed.(Ûù‘8Íà‹™ë-
+…"squid:ClassVariableVisibilityCheck"PMake date a static final constant or non-public and provide accessors if needed.(Ûù‘8Íà‹™ë-
+@squid:S1659""Declare "date" on a separate line.(Ûù‘8Íà‹™ë-
+@squid:S1659""Declare "time" on a separate line.(Ûù‘8Íà‹™ë-
+rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(½ù÷
+‚"squid:ClassVariableVisibilityCheck"NMake id a static final constant or non-public and provide accessors if needed.(†·Ûq8µ—ƒì-

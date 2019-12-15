@@ -1,0 +1,25 @@
+
+q
+Aapp/src/main/java/com/truestbyheart/todoapp/Models/TaskModel.java,3/f/3fe830386526ec99185341a91526dfe102b9b975
+p
+@app/src/main/java/com/truestbyheart/todoapp/SQLite/DBHelper.java,b/e/bef36caa281c4cf66f9481c5873cdf47550b35dd
+h
+8app/src/main/java/com/truestbyheart/todoapp/AddTask.java,2/3/23b91feb874e409ce88aaf82aabdbb5c0f223850
+y
+Iapp/src/main/java/com/truestbyheart/todoapp/Adapters/TodoListAdapter.java,9/1/918abdf96e5e247e21e0f1cd8d25f3290b034281
+m
+=app/src/main/java/com/truestbyheart/todoapp/MainActivity.java,a/6/a67e46b95004c329d233fb2a949bbd42f1cf01dc
+p
+@app/src/main/java/com/truestbyheart/todoapp/Helpers/Helpers.java,d/e/deae623eccaf2d687911d33e666e524443f94b3c
+p
+@app/src/main/java/com/truestbyheart/todoapp/ArchiveActivity.java,c/0/c057071509ea333872c2191d6dfb7a523726fd1a
+|
+Lapp/src/main/java/com/truestbyheart/todoapp/Adapters/ArchiveListAdapter.java,9/b/9b32b1730d166cf83bfbd48ae30b61b988436551
+q
+Aapp/src/main/java/com/truestbyheart/todoapp/SettingsActivity.java,8/a/8a3dc21cf6bf8b56e1291f0b712f241ef41fcdcc
+P
+ app/src/main/AndroidManifest.xml,8/c/8c55c3ccc257e5907959013f99656e4c8ec3903e
+n
+>app/src/main/java/com/truestbyheart/todoapp/AlarmReceiver.java,a/1/a1cab92e6d87b4a3477102796d33682d0a9478ed
+m
+=app/src/main/java/com/truestbyheart/todoapp/AlarmService.java,2/f/2f6c707c2660fc12c5b909aa16dc5015d57acc79
