@@ -23,3 +23,9 @@ n
 >app/src/main/java/com/truestbyheart/todoapp/AlarmReceiver.java,a/1/a1cab92e6d87b4a3477102796d33682d0a9478ed
 m
 =app/src/main/java/com/truestbyheart/todoapp/AlarmService.java,2/f/2f6c707c2660fc12c5b909aa16dc5015d57acc79
+d
+4app/src/main/java/com/truestbyheart/todoapp/App.java,e/7/e7aece2f356b4fa1d279cbe456b4ebf95385ef54
+p
+@app/src/test/java/com/truestbyheart/todoapp/ExampleUnitTest.java,d/f/dfddd0fc13431a596a1a587228c72534ca0bfc8e
+
+Oapp/src/androidTest/java/com/truestbyheart/todoapp/ExampleInstrumentedTest.java,c/6/c68a237014044eadd76e3bb9885d0bf8b60553cc

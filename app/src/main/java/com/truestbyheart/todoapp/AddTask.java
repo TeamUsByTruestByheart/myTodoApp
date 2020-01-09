@@ -106,7 +106,7 @@ public class AddTask extends AppCompatActivity {
                 final Calendar calendar = Calendar.getInstance();
                 int hour = calendar.get(Calendar.HOUR_OF_DAY);
                 int minute = calendar.get(Calendar.MINUTE);
-                final Intent alarmIntent = new Intent(AddTask.this,AlarmReceiver.class);
+                final Intent alarmIntent = new Intent(AddTask.this, AlarmReceive.class);
 
                 calendar.set(Calendar.HOUR_OF_DAY, hour);
                 calendar.set(Calendar.MINUTE, minute);
