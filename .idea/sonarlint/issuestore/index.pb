@@ -29,3 +29,11 @@ p
 @app/src/test/java/com/truestbyheart/todoapp/ExampleUnitTest.java,d/f/dfddd0fc13431a596a1a587228c72534ca0bfc8e
 
 Oapp/src/androidTest/java/com/truestbyheart/todoapp/ExampleInstrumentedTest.java,c/6/c68a237014044eadd76e3bb9885d0bf8b60553cc
+m
+=app/src/main/java/com/truestbyheart/todoapp/AlarmReceive.java,0/b/0b5d62e920afd4f6b8c4c8557e5d7bda5def43a6
+<
+build.gradle,f/0/f07866736216be0ee2aba49e392191aeae700a35
+X
+(gradle/wrapper/gradle-wrapper.properties,f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e
+@
+app/build.gradle,f/4/f4a01d6a4fcb971362ec00a83903fd3902f52164
