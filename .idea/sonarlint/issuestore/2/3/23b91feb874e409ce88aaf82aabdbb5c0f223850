@@ -1,9 +1,9 @@
 
 Fsquid:S1659,"(Declare "timeOfTask" on a separate line.(Òò¯š8·—ƒì-
-qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(×‘ŸÛøÿÿÿÿ8ØŞœİì-
-osquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8·—Ùë-
-Tsquid:S2696("6Make the enclosing method "static" or remove this set.(€º´ 8¹§Êİì-
-fsquid:S1192G"HDefine a constant instead of duplicating this literal "TASK_ID" 3 times.(³Å¦Õ8€”÷”ì-
 Fsquid:S1481w")Remove this unused "time" local variable.(†ÉÇM8ßï±‘í-
 Jsquid:S1068"'Remove this unused "TAG" private field.(›ã‚şÿÿÿÿ8ÖÇØ”ì-
+osquid:S1301"KReplace this "switch" statement by "if" statements to increase readability.(øå´¡ÿÿÿÿÿ8·—Ùë-
 Fsquid:S1659,"(Declare "dateOfTask" on a separate line.(Òò¯š8·—ƒì-
+qsquid:MaximumInheritanceDepth"<This class has 6 parents which is greater than 5 authorized.(×‘ŸÛøÿÿÿÿ8ØŞœİì-
+Tsquid:S2696("6Make the enclosing method "static" or remove this set.(€º´ 8¹§Êİì-
+fsquid:S1192G"HDefine a constant instead of duplicating this literal "TASK_ID" 3 times.(³Å¦Õ8€”÷”ì-

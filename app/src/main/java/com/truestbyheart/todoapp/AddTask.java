@@ -29,6 +29,7 @@ public class AddTask extends AppCompatActivity {
     private DBHelper db;
     private static AddTask addTask;
     private PendingIntent pendingIntent;
+    private AlarmManager alarmManager;
 
     public static AddTask instance(){
         return addTask;
@@ -40,7 +41,6 @@ public class AddTask extends AppCompatActivity {
         addTask = this;
     }
 
-    AlarmManager alarmManager;
     EditText taskDescription, dateOfTask, timeOfTask;
     DatePickerDialog datePickerDialog;
     TimePickerDialog timePickerDialog;
@@ -106,7 +106,6 @@ public class AddTask extends AppCompatActivity {
                 final Calendar calendar = Calendar.getInstance();
                 int hour = calendar.get(Calendar.HOUR_OF_DAY);
                 int minute = calendar.get(Calendar.MINUTE);
-                final Intent alarmIntent = new Intent(AddTask.this,AlarmReceiver.class);
 
                 calendar.set(Calendar.HOUR_OF_DAY, hour);
                 calendar.set(Calendar.MINUTE, minute);
@@ -116,12 +115,11 @@ public class AddTask extends AppCompatActivity {
                     @Override
                     public void onTimeSet(TimePicker view, int hourOfDay, int minute) {
                      timeOfTask.setText(hourOfDay+":"+minute);
-                     long time;
-                     pendingIntent = PendingIntent.getBroadcast(AddTask.this,0,alarmIntent,0);
+                     long time = calendar.getTimeInMillis();
+                     Intent alarmIntent = new Intent(AddTask.this, AlarmReceiver.class);
+                     pendingIntent = PendingIntent.getBroadcast(AddTask.this,0, alarmIntent,0);
+                     alarmManager.set(AlarmManager.RTC,time,pendingIntent );
 
-                     alarmManager.setRepeating(AlarmManager.RTC_WAKEUP,
-                             System.currentTimeMillis() + (5 * 1000),
-                             10000,pendingIntent);
                     }
                 }, hour, minute,true);
                 timePickerDialog.show();

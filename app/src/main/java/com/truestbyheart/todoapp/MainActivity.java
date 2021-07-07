@@ -1,6 +1,12 @@
 package com.truestbyheart.todoapp;
 
+import android.app.AlarmManager;
+import android.app.NotificationChannel;
+import android.app.NotificationManager;
+import android.app.PendingIntent;
+import android.content.Context;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -16,11 +22,11 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+
 public class MainActivity extends AppCompatActivity {
     private DBHelper mDatabase;
     public static TodoListAdapter adapter;
     RecyclerView recyclerView;
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,14 +34,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
         mDatabase = new DBHelper(this);
 
         recyclerView = findViewById(R.id.rv_todo);
         adapter = new TodoListAdapter(this, mDatabase.getAllTask());
         recyclerView.setAdapter(adapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
-
 
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -60,15 +64,14 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-       switch(item.getItemId()){
-           case R.id.archive_task:
-               startActivity(new Intent(this, ArchiveActivity.class));
-               return true;
-           default:
-               return super.onOptionsItemSelected(item);
-       }
+        switch (item.getItemId()) {
+            case R.id.archive_task:
+                startActivity(new Intent(this, ArchiveActivity.class));
+                return true;
+            default:
+                return super.onOptionsItemSelected(item);
+        }
 
     }
-
 
 }

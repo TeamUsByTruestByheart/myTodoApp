@@ -3,35 +3,58 @@ package com.truestbyheart.todoapp;
 import android.app.IntentService;
 import android.app.NotificationManager;
 import android.app.PendingIntent;
-import android.content.Context;
 import android.content.Intent;
+import android.content.Context;
 
-import androidx.annotation.Nullable;
 import androidx.core.app.NotificationCompat;
 
+/**
+ * An {@link IntentService} subclass for handling asynchronous task requests in
+ * a service on a separate handler thread.
+ * <p>
+ * TODO: Customize class - update intent actions, extra parameters and static
+ * helper methods.
+ */
 public class AlarmService extends IntentService {
-    private NotificationManager alarmNotificationManager;
-    public AlarmService(){
-        super("AlarmService");
+    private NotificationManager mNotificationManager;
+    private static final int NOTIFICATION_ID = 0;
+    private static final String PRIMARY_CHANNEL_ID =
+            "todo_notification_channel";
+
+    public AlarmService(String name) {
+        super("Alarm Service");
     }
+
     @Override
-    protected void onHandleIntent(@Nullable Intent intent) {
-        sendNotification("wake up!");
+    protected void onHandleIntent(Intent intent) {
+       createNotificationChannel();
     }
 
-    private void sendNotification(String msg) {
-        alarmNotificationManager = (NotificationManager) this
-                .getSystemService(Context.NOTIFICATION_SERVICE);
+    public void createNotificationChannel() {
+        // Create a notification manager object.
+        mNotificationManager =
+                (NotificationManager) this.getSystemService(Context.NOTIFICATION_SERVICE);
 
-        PendingIntent contentIntent = PendingIntent.getActivity(this,0,
-                new Intent(this, AddTask.class), 0);
+        PendingIntent contentIntent = PendingIntent.getActivity(this, 0,
+                new Intent(this, MainActivity.class), 0);
 
-        NotificationCompat.Builder alarmNotificationBuilder = new NotificationCompat.Builder(this)
-                .setContentTitle("TodoApp").setSmallIcon(R.drawable.ic_launcher_foreground)
-                .setStyle(new NotificationCompat.BigTextStyle().bigText(msg))
-                .setContentText(msg);
+        // Notification channels are only available in OREO and higher.
+        // So, add a check on SDK version.
+        if (android.os.Build.VERSION.SDK_INT >=
+                android.os.Build.VERSION_CODES.O) {
 
-        alarmNotificationBuilder.setContentIntent(contentIntent);
-        alarmNotificationManager.notify(1, alarmNotificationBuilder.build());
+            NotificationCompat.Builder builder = new NotificationCompat.Builder
+                    (this, PRIMARY_CHANNEL_ID)
+                    .setSmallIcon(R.drawable.ic_todo_icon)
+                    .setContentTitle(this.getString(R.string.notification_title))
+                    .setContentText(this.getString(R.string.notification_text))
+                    .setContentIntent(contentIntent)
+                    .setPriority(NotificationCompat.PRIORITY_HIGH)
+                    .setAutoCancel(true)
+                    .setDefaults(NotificationCompat.DEFAULT_ALL);
+
+            // Deliver the notification
+            mNotificationManager.notify(NOTIFICATION_ID, builder.build());
+        }
     }
 }

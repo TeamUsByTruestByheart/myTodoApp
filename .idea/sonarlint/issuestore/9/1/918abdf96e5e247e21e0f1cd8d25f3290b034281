@@ -1,15 +1,15 @@
 
-wsquid:S00116k"XRename this field "task_complete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â‹ã–8¸—ƒì-
 xsquid:S00116j"TRename this field "todo_date" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øí€Êúÿÿÿÿ8¸—ƒì-
-xsquid:S00116j"TRename this field "todo_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øí€Êúÿÿÿÿ8¸—ƒì-
-•squid:S1319#"rThe type of the "dataSet" object should be an interface such as "List" rather than the implementation "ArrayList".(°ò³¸úÿÿÿÿ8Êğå™ë-
-Jsquid:S1659j"'Declare "todo_date" on a separate line.(Øí€Êúÿÿÿÿ8¸—ƒì-
+ssquid:UselessImportCheck"CRemove this unused import 'com.truestbyheart.todoapp.MainActivity'.(Ê€¿ıÿÿÿÿ8ÑÙè¼ì-
+0squid:S2176i"Rename this class.(¯ôšÔ8Â¨¹˜ë-
 squid:S14880"bImmediately return this expression instead of assigning it to the temporary variable "viewHolder".(Ûóşx8¡Ó¹˜ë-
 rsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÊ¼ˆ
-ssquid:UselessImportCheck"CRemove this unused import 'com.truestbyheart.todoapp.MainActivity'.(Ê€¿ıÿÿÿÿ8ÑÙè¼ì-
-zsquid:S00116m"VRename this field "delete_task" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š‘‹şÿÿÿÿ8áÍ”»ì-
-0squid:S2176i"Rename this class.(¯ôšÔ8Â¨¹˜ë-
-Esquid:S1068"'Remove this unused "TAG" private field.(¯Ó¹í8×É˜“ì-
-Jsquid:S1659j"'Declare "todo_time" on a separate line.(Øí€Êúÿÿÿÿ8¸—ƒì-
-ysquid:S00116j"URename this field "todo_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øí€Êúÿÿÿÿ8¸—ƒì-
+wsquid:S00116k"XRename this field "task_complete" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â‹ã–8¸—ƒì-
 xsquid:S00116l"TRename this field "todo_item" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºø¦‘ûÿÿÿÿ8¸—ƒì-
+xsquid:S00116j"TRename this field "todo_time" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øí€Êúÿÿÿÿ8¸—ƒì-
+zsquid:S00116m"VRename this field "delete_task" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(š‘‹şÿÿÿÿ8áÍ”»ì-
+Jsquid:S1659j"'Declare "todo_time" on a separate line.(Øí€Êúÿÿÿÿ8¸—ƒì-
+Esquid:S1068"'Remove this unused "TAG" private field.(¯Ó¹í8×É˜“ì-
+ysquid:S00116j"URename this field "todo_title" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Øí€Êúÿÿÿÿ8¸—ƒì-
+Jsquid:S1659j"'Declare "todo_date" on a separate line.(Øí€Êúÿÿÿÿ8¸—ƒì-
+•squid:S1319#"rThe type of the "dataSet" object should be an interface such as "List" rather than the implementation "ArrayList".(°ò³¸úÿÿÿÿ8Êğå™ë-
